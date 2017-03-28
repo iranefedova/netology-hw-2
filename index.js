@@ -7,7 +7,7 @@ let lost = new PokemonList(new Pokemon("Charmander", 1), new Pokemon("Blastoise"
 
 console.log(hide('./field', lost));
 
-let found = seek('./field', (res) => {
+seek('./field', (res) => {
   console.log('Я нашел');
   console.log(res);
 });
